@@ -9,7 +9,7 @@ function distanceFromHqInBlocks(streetNumber) {
 function distanceFromHqInFeet(streetNumber) {
   let NoBlocks = distanceFromHqInBlocks(streetNumber);
   
-  return (streetNumber * 264)
+  return (NoBlocks * 264)
 }
 
 function distanceTravelledInFeet(startStreet, endStreet) {
