@@ -11,4 +11,6 @@ function distanceFromHqInFeet(streetNumber) {
   return (streetNumber * 264)
 }
 
-function 
+function distanceTravelledInFeet(startStreet, endStreet) {
+  return ((endStreet - startStreet) * 264);
+}
