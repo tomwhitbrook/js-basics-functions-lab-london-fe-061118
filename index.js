@@ -24,6 +24,8 @@ function calculatesFarePrice(startStreet, endStreet) {
   
   if (dist < 400) return 0;
   
-  else if (dist > 400)
+  else if (dist > 2500) return "cannot travel that far";
+  
+  else if (dist < 2001) return ((dist - 400) *
   
 }
