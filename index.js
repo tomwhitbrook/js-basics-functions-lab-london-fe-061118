@@ -18,3 +18,12 @@ function distanceTravelledInFeet(startStreet, endStreet) {
   }
   return ((startStreet - endStreet) * 264);
 }
+
+function calculatesFarePrice(startStreet, endStreet) {
+  let dist = distanceTravelledInFeet(startStreet, endStreet);
+  
+  if (dist < 400) return 0;
+  
+  else if (dist > 400)
+  
+}
